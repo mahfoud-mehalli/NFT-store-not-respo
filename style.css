@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+}
+.all{
+    background-image: radial-gradient(ellipse at top left,#7C42B7,#04114C 80%);
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ********************* header *********************** */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 180px 0px 180px;
+    background-image: url(image.png);
+}
+header .crypto{
+    font-weight: 700;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+header nav a {
+    margin: 20px;
+}
+
+/* ********************* sections *********************** */
+
+section{
+    padding: 80px 180px;
+}
+
+/* ********************* home *********************** */
+
+.home{
+    padding: 0px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-info h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    color: #fff;
+}
+.home-info p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.home-info .buy{
+    background-color: #9191DC;
+    border-radius: 45px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 25px;
+}
+.home-info .sell{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    border: #9191DC solid 2px;
+    border-radius: 45px;
+    padding: 18px 43px;
+    text-decoration: none;
+    color:  #fff;
+    margin-left: 15px;
+}
+.home .pc img{
+    width: 630px;
+    height: 650px;
+    padding: 0px;
+    margin-top: -50px;
+    /* background-image: url(img/pc.png); */
+}
+
+/* ********************* NFTs *********************** */
+
+.nft{
+    background: rgba(196, 196, 196, 0.44);
+    border-radius: 40px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nft img{
+    height: 50px;
+    /* margin: 10px 35px; */
+}
+
+/* ********************* analytics *********************** */
+
+.analytics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-left: 115px;
+}
+.ana-img img{
+    width: 580px;
+    height: 580px;
+}
+.analyse{
+    margin-top: -50px;
+}
+.analyse h3{
+    color: #92D8FF;
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-family: 'Roboto';
+
+}
+.built {
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.use{
+    font-size: 20px;
+    margin-bottom: 33px;
+}
+.lets{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 18px 27px;
+    background-color: #9191DC;
+    border-radius: 45px;
+}
+
+/* ********************* Phone *********************** */
+
+.phone{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info a{
+    background-color: #91DCD8;
+}
+.phone img{
+    width: 500px;
+    height: 500px;
+}
+
+/* ********************* cards *********************** */
+
+.cardsss .info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.test{
+    color: #87FFD4;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+}
+.cardsss .info h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.cardss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardss .arrow{
+    height: 60px;   
+    width: 30px;
+    margin: 0px;
+    filter: invert(86%) sepia(100%) saturate(4%) hue-rotate(263deg) brightness(111%) contrast(97%);
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #665F8E;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.cards img{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin-top: -85px;
+    margin-bottom: 8px;
+    mix-blend-mode: luminosity
+}
+.cards h4{
+    color: #C3FFED;
+    font-size: 28px;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.cards p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+/* ********************* final box *********************** */
+
+.box div{
+    background-image: linear-gradient(#7000FE,#0057FF);
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 45px;
+}
+.box h3{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-top: 42px;
+}
+.box h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: -40px;
+}
+.box a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 45px;
+    padding: 23px 48px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* ********************* footer *********************** */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 80px 180px;
+    color: #fff;
+}
+footer h5{
+    font-size: 22px;
+}
+footer .f2{
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+}
+footer .f2 a{
+    font-size: 16px;
+    text-decoration: none;
+}
+footer .f3{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 25px;
+}
+footer .f3 h6{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+footer .f3 .search{
+    background-color: rgba(96, 82, 255, 0.48);
+    padding: 3px 15px;
+    border-radius: 25px 0 0 25px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    height: 38px;
+    width: 270px;
+    margin: 0;
+}
+footer .f3 .submit{
+    background-color: #8E8BFF;
+    border-radius: 40px;
+    height: 38px;
+    padding: 3px 15px;
+    margin-left: -50px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
